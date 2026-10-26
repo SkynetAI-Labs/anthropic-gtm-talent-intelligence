@@ -1,0 +1,122 @@
+{
+  "version": "1.1",
+  "thresholds": {
+    "exact": 85,
+    "closest": 65,
+    "transferable": 45
+  },
+  "experience_weight": 15,
+  "competency_weight": 75,
+  "industry_weight": 10,
+  "direct_industries": [
+    "AI and machine learning",
+    "Enterprise SaaS",
+    "Cloud technology",
+    "Enterprise software"
+  ],
+  "roles": {
+    "V01": {
+      "title": "Enterprise Account Executive",
+      "min_years": 8,
+      "weights": {
+        "enterprise sales": 25,
+        "discovery": 15,
+        "negotiation": 15,
+        "stakeholder management": 15,
+        "pipeline management": 10,
+        "AI literacy": 10,
+        "MEDDPICC": 10
+      },
+      "mandatory": [
+        "enterprise sales",
+        "negotiation"
+      ],
+      "screening_questions": [
+        "Walk me through an enterprise deal you personally closed: who controlled budget, which decision criteria mattered and what almost stopped the deal?",
+        "How would you qualify an AI use case before involving technical colleagues, and when would you advise a customer not to proceed?",
+        "Describe a procurement or commercial negotiation where you protected value while giving the customer a credible route to agreement."
+      ]
+    },
+    "V02": {
+      "title": "Business Development Representative",
+      "min_years": 1,
+      "weights": {
+        "prospecting": 30,
+        "qualification": 25,
+        "communication": 20,
+        "CRM": 15,
+        "AI literacy": 10
+      },
+      "mandatory": [
+        "prospecting",
+        "communication"
+      ],
+      "screening_questions": [
+        "Choose a fictional target account: which buying signals and business problem would justify your outreach?",
+        "How would you distinguish curiosity about AI from a qualified opportunity worth an account executive\u2019s time?",
+        "Tell me how you changed an outreach sequence after low response rates, and which measures showed the change helped."
+      ]
+    },
+    "V03": {
+      "title": "Sales Engineer",
+      "min_years": 4,
+      "weights": {
+        "technical discovery": 25,
+        "API integration": 25,
+        "solution design": 20,
+        "communication": 15,
+        "AI literacy": 15
+      },
+      "mandatory": [
+        "technical discovery",
+        "solution design"
+      ],
+      "screening_questions": [
+        "A customer wants to connect an LLM to internal knowledge: what would you clarify about data access, evaluation and failure modes before proposing a design?",
+        "Describe a proof of concept you supported: what success criteria did you agree, and how did you handle results that missed them?",
+        "Explain an API integration trade-off to a commercial sponsor without overstating reliability or promising capabilities you have not tested."
+      ]
+    },
+    "V04": {
+      "title": "Account Manager",
+      "min_years": 4,
+      "weights": {
+        "account planning": 25,
+        "customer adoption": 25,
+        "negotiation": 20,
+        "stakeholder management": 20,
+        "AI literacy": 10
+      },
+      "mandatory": [
+        "account planning",
+        "stakeholder management"
+      ],
+      "screening_questions": [
+        "Describe an account where usage was healthy but business value was unclear: how did you uncover the gap?",
+        "How would you build an adoption plan across an executive sponsor, IT stakeholders and end users with competing priorities?",
+        "Tell me about a renewal or expansion at risk: what evidence changed your plan and what did you personally do?"
+      ]
+    },
+    "V05": {
+      "title": "Sales Leadership",
+      "min_years": 10,
+      "weights": {
+        "sales leadership": 25,
+        "coaching": 20,
+        "forecasting": 20,
+        "enterprise sales": 15,
+        "stakeholder management": 10,
+        "AI literacy": 10
+      },
+      "mandatory": [
+        "sales leadership",
+        "coaching"
+      ],
+      "screening_questions": [
+        "Walk me through a forecast you challenged: what deal evidence changed your view and how did you communicate the risk?",
+        "Describe how you coached a strong seller whose discovery or qualification was weak; what changed in their behaviour?",
+        "With limited hiring capacity, how would you choose between adding prospecting, account executive and technical pre-sales capacity?"
+      ]
+    }
+  }
+}
